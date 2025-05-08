@@ -6,7 +6,8 @@ import '../global.css';
 
 export default function RootLayout() {
     const [loaded] = useFonts({
-        SpaceMono: require('../../assets/fonts/SpaceMono-Regular.ttf'),
+        SFProRoundedRegular: require('../../assets/fonts/SFProRounded-Regular.ttf'),
+        SFProRoundedSemibold: require('../../assets/fonts/SFProRounded-Semibold.ttf'),
     });
 
     if (!loaded) {
